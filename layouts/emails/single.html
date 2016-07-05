@@ -1,28 +1,28 @@
-{{ partial "modules/header" . }}
-{{ $black := .Site.Data.emails.black }}
-{{ $fordblue := .Site.Data.emails.fordblue }}
-{{ $darkblue := .Site.Data.emails.darkblue }}
-{{ $lightblue := .Site.Data.emails.lightblue }}
-{{ $green := .Site.Data.emails.green }}
-{{ $slatescreen := .Site.Data.emails.slatescreen }}
-{{ $white := .Site.Data.emails.white }}
-{{ range .Params.module }}
-  {{ if eq .color "black" }}
+{{- partial "modules/header" . -}}
+{{- $black := .Site.Data.emails.black -}}
+{{- $fordblue := .Site.Data.emails.fordblue -}}
+{{- $darkblue := .Site.Data.emails.darkblue -}}
+{{- $lightblue := .Site.Data.emails.lightblue -}}
+{{- $green := .Site.Data.emails.green -}}
+{{- $slatescreen := .Site.Data.emails.slatescreen -}}
+{{- $white := .Site.Data.emails.white -}}
+{{- range .Params.module -}}
+  {{- if eq .color "black" -}}
     {{partial .path (dict "nada" . "blah" $black)}}
-  {{ else if eq .color "white" }}
+  {{- else if eq .color "white" -}}
     {{partial .path (dict "nada" . "blah" $white)}}
-  {{ else if eq .color "fordblue" }}
+  {{- else if eq .color "fordblue" -}}
     {{partial .path (dict "nada" . "blah" $fordblue)}}
-  {{ else if eq .color "darkblue" }}
+  {{- else if eq .color "darkblue" -}}
     {{partial .path (dict "nada" . "blah" $darkblue)}}
-  {{ else if eq .color "lightblue" }}
+  {{- else if eq .color "lightblue" -}}
     {{partial .path (dict "nada" . "blah" $lightblue)}}
-  {{ else if eq .color "slatescreen" }}
+  {{- else if eq .color "slatescreen" -}}
     {{partial .path (dict "nada" . "blah" $slatescreen)}}
-  {{ else if eq .color "green" }}
+  {{- else if eq .color "green" -}}
     {{partial .path (dict "nada" . "blah" $green)}}
-  {{ else }}
+  {{- else -}}
     <p style="text-align:center">{{.color}} is not a valid color for module with path: {{.path}}</p>
-  {{ end }}
-{{ end }}
+  {{- end -}}
+{{- end -}}
 {{ partial "modules/footer" . }}
