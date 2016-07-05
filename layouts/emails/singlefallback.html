@@ -1,0 +1,34 @@
+{{ partial "modules/header" }}
+
+{{.Site.Data.colors.black}}
+
+{{$black := .Site.Data.colors.black }}
+{{$fordblue := .Site.Data.colors.fordblue }}
+{{$darkblue := .Site.Data.colors.darkblue }}
+{{$lightblue := .Site.Data.colors.lightblue }}
+{{$green := .Site.Data.colors.green }}
+{{$slatescreen := .Site.Data.colors.slatescreen }}
+{{$white := .Site.Data.colors.white }}
+
+{{range .Params.module}}
+{{if eq .color "black"}}
+  {{partial .path (dict "nada" . "blah" $black)}}
+{{else if eq .color "white"}}
+  {{partial .path (dict "nada" . "blah" $white)}}
+{{else if eq .color "fordblue"}}
+  {{partial .path (dict "nada" . "blah" $fordblue)}}
+{{else if eq .color "darkblue"}}
+  {{partial .path (dict "nada" . "blah" $darkblue)}}
+{{else if eq .color "lightblue"}}
+  {{partial .path (dict "nada" . "blah" $lightblue)}}
+{{else if eq .color "slatescreen"}}
+  {{partial .path (dict "nada" . "blah" $slatescreen)}}
+{{else if eq .color "green"}}
+  {{partial .path (dict "nada" . "blah" $green)}}
+{{else}}
+<p style="text-align:center">{{.color}} is not a valid color for module with path: {{.path}}</p>
+{{end}}
+
+{{end}}
+
+{{ partial "modules/footer" }}

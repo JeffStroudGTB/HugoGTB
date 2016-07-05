@@ -1,0 +1,15 @@
+[black]
+cbackground="000001"
+cheading2="FFFFFF"
+ccopy="B3B3B3"
+cctaicon="FFFFFF"
+[white]
+cbackground="FFFFFF"
+cheading2="FFFFFF"
+ccopy="B3B3B3"
+cctaicon="FFFFFF"
+[green]
+cbackground="1BBC9B"
+cheading2="FFFFFF"
+ccopy="B3B3B3"
+cctaicon="FFFFFF"
