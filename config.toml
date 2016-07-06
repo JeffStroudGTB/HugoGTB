@@ -1,3 +1,7 @@
 baseurl = "http://hugotest.herokuapp.com/"
 languageCode = "en-us"
 title = "Hugotest"
+[taxonomies]
+tag = "tags"
+category = "categories"
+market = "markets"
