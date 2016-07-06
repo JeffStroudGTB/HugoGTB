@@ -1,6 +1,6 @@
 +++
 categories = [ "Emails" ]
-markets = ["AU", "IN"]
+markets = ["IN"]
 title = 'IN Service 011'
 
 preheader='this is awesome'
