@@ -1,5 +1,5 @@
 {{"<!-- cover/01/black Starts-->" | safeHTML }}
-<table width="640" border="0" cellspacing="0" cellpadding="0" bgcolor={{.blah.cbackground}} class="resize_table_to_320" align="center">
+<table width="640" border="0" cellspacing="0" cellpadding="0" bgcolor="{{.blah.backgroundcolor}}" class="resize_table_to_320" align="center">
   <tr>
     <td style="padding:30px;" valign="top">
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -9,24 +9,24 @@
           </td>
         </tr>
         <tr>
-          <td style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif'; padding-bottom:20px;">{{ .nada.cover_01_title }}</td>
+          <td style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:{{.blah.heading2}}; font-family: 'Arial','Helvetica','Sans-Serif'; padding-bottom:20px;">{{ .nada.cover_01_title }}</td>
         </tr>
         <tr>
-          <td style="text-align:center; color:#B3B3B3; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; line-height: 21px;
+          <td style="text-align:center; color:{{.blah.txtbody}}; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; line-height: 21px;
           font-weight: normal; font-style: regular; padding-bottom:20px;">{{ .nada.cover_01_copy }}</td>
         </tr>
         <tr>
           <td align="center" valign="top">
             <table border="0" cellspaci ng="0" cellpadding="0">
               <tr>
-                <td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
-                  <a href="{{ .nada.cover_01_cta_url }}" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;">
+                <td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:{{.blah.ctaicontext}}; font-family: 'Arial','Helvetica','Sans-Serif';">
+                  <a href="{{ .nada.cover_01_cta_url }}" target="_blank" title="" style="color:{{.blah.ctaicontext}}; text-decoration:none;">
                     {{ .nada.cover_01_cta_text }}
                   </a>
                 </td>
                 <td align="center" valign="top" style="padding-left:10px;">
                   <a href="{{ .nada.cover_01_cta_url }}" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;">
-                    <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{ .nada.cover_01_cta_icon }}_white.gif" width="20" height="20"  border="0" style="display:block;"/>
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{ .nada.cover_01_cta_icon }}_{{.blah.ctaicon}}.gif" width="20" height="20"  border="0" style="display:block;"/>
                   </a>
                 </td>
               </tr>
