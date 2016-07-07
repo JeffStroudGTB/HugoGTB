@@ -4,11 +4,11 @@
   <div class="page-wrap">
     <div class="sidebar">
       <ul>
-        <li><a href="/#AU">AU</a></li>
-        <li><a href="/#IN">IN</a></li>
-        <li><a href="/#PH">PH</a></li>
-        <li><a href="/#TH">TH</a></li>
-        <li><a href="/#VN">VN</a></li>
+        <li><a href="/#au">AU</a></li>
+        <li><a href="/#in">IN</a></li>
+        <li><a href="/#ph">PH</a></li>
+        <li><a href="/#th">TH</a></li>
+        <li><a href="/#vn">VN</a></li>
         <li><a href="/#Modules">Modules</a></li>
         <li><a href="/ascii">ASCII Symbols</a></li>
       </ul>
@@ -20,7 +20,22 @@
           <th>Text</th>
         </thead>
         <tbody>
-          {{ range $key, $taxonomy := .Site.Taxonomies.markets }}
+          {{ range $key, $taxonomy := .Site.Taxonomies.emails }}
+          <tr id="$key">
+            <td> {{ $key }} </td>
+            <td>
+              <ul>
+                {{ range $taxonomy.Pages }}
+                <li>
+                  <a class="download" href="{{ .Permalink }}" download>&#8595;</a>
+                  <a href="{{ .Permalink }}">{{ .LinkTitle}} </a>
+                </li>
+                {{ end }}
+              </ul>
+            </td>
+          </tr>
+          {{ end }}
+          {{ range $key, $taxonomy := .Site.Taxonomies.modules }}
           <tr id="$key">
             <td> {{ $key }} </td>
             <td>

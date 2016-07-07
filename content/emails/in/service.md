@@ -1,12 +1,12 @@
 +++
 categories = [ "Emails" ]
-markets = [ "IN" ]
+emails = [ "IN" ]
 title = 'IN Service 010'
 
 preheader='this is awesome'
 
 [[module]]
-path='modules/cover/01'
+path='modules/cover/cover_01'
 
 color='black'
 cover_01_icon = 'ew'
@@ -17,7 +17,7 @@ cover_01_cta_text = 'blah blah blah'
 cover_01_cta_icon = 'play'
 
 [[module]]
-path='modules/cover/01'
+path='modules/cover/cover_01'
 
 color='white'
 cover_01_icon = 'ew'
@@ -28,7 +28,7 @@ cover_01_cta_text = 'blah blah blah'
 cover_01_cta_icon = 'play'
 
 [[module]]
-path='modules/cover/01'
+path='modules/cover/cover_01'
 
 color='notacolor'
 cover_01_icon = 'ew'
