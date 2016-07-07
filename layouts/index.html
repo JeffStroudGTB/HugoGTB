@@ -13,7 +13,7 @@
         <li><a href="/ascii">ASCII Symbols</a></li>
       </ul>
     </div>
-      <table class="flat-table">
+      <table class="flat-table" border="1px">
         <thead class="sticky">
           <th>Market</th>
           <th>HTML</th>
@@ -22,7 +22,7 @@
         <tbody>
           {{ range $key, $taxonomy := .Site.Taxonomies.emails }}
           <tr id="$key">
-            <td> {{ $key }} </td>
+            <td> {{ humanize $key }} </td>
             <td>
               <ul>
                 {{ range $taxonomy.Pages }}
@@ -37,7 +37,7 @@
           {{ end }}
           {{ range $key, $taxonomy := .Site.Taxonomies.modules }}
           <tr id="$key">
-            <td> {{ $key }} </td>
+            <td> {{ humanize $key }} Modules </td>
             <td>
               <ul>
                 {{ range $taxonomy.Pages }}
