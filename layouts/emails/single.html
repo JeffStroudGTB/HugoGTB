@@ -8,21 +8,21 @@
 {{- $white := .Site.Data.emails.white -}}
 {{- range .Params.module -}}
   {{- if eq .color "black" -}}
-    {{partial .path (dict "nada" . "blah" $black)}}
+    {{partial .path (dict "moduleinfo" . "color" $black)}}
   {{- else if eq .color "white" -}}
-    {{partial .path (dict "nada" . "blah" $white)}}
+    {{partial .path (dict "moduleinfo" . "color" $white)}}
   {{- else if eq .color "fordblue" -}}
-    {{partial .path (dict "nada" . "blah" $fordblue)}}
+    {{partial .path (dict "moduleinfo" . "color" $fordblue)}}
   {{- else if eq .color "darkblue" -}}
-    {{partial .path (dict "nada" . "blah" $darkblue)}}
+    {{partial .path (dict "moduleinfo" . "color" $darkblue)}}
   {{- else if eq .color "lightblue" -}}
-    {{partial .path (dict "nada" . "blah" $lightblue)}}
+    {{partial .path (dict "moduleinfo" . "color" $lightblue)}}
   {{- else if eq .color "slatescreen" -}}
-    {{partial .path (dict "nada" . "blah" $slatescreen)}}
+    {{partial .path (dict "moduleinfo" . "color" $slatescreen)}}
   {{- else if eq .color "green" -}}
-    {{partial .path (dict "nada" . "blah" $green)}}
+    {{partial .path (dict "moduleinfo" . "color" $green)}}
   {{- else if eq .color "nothing" -}}
-    {{partial .path (dict "nada" . "blah" $black)}}
+    {{partial .path (dict "moduleinfo" . "color" $black)}}
   {{- else -}}
     <p style="text-align:center">{{.color}} is not a valid color for module with path: {{.path}}</p>
   {{- end -}}
