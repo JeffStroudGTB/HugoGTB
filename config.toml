@@ -4,6 +4,5 @@ title = "Hugotest"
 [taxonomies]
 tag = "tags"
 category = "categories"
-email = "emails"
-oldemail = "oldemail"
+market = "markets"
 module = "modules"
