@@ -21,6 +21,8 @@
     {{partial .path (dict "nada" . "blah" $slatescreen)}}
   {{- else if eq .color "green" -}}
     {{partial .path (dict "nada" . "blah" $green)}}
+  {{- else if eq .color "nothing" -}}
+    {{partial .path (dict "nada" . "blah" $black)}}
   {{- else -}}
     <p style="text-align:center">{{.color}} is not a valid color for module with path: {{.path}}</p>
   {{- end -}}
