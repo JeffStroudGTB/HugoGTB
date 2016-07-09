@@ -6,6 +6,8 @@
 {{- $green := .Site.Data.emails.green -}}
 {{- $slatescreen := .Site.Data.emails.slatescreen -}}
 {{- $white := .Site.Data.emails.white -}}
+{{- $white_ot := .Site.Data.emails.white_ot -}}
+{{- $darkblue_ot := .Site.Data.emails.darkblue_ot -}}
 {{- range .Params.module -}}
   {{- if eq .color "black" -}}
     {{partial .path (dict "moduleinfo" . "color" $black)}}
@@ -21,6 +23,10 @@
     {{partial .path (dict "moduleinfo" . "color" $slatescreen)}}
   {{- else if eq .color "green" -}}
     {{partial .path (dict "moduleinfo" . "color" $green)}}
+  {{- else if eq .color "white_ot" -}}
+    {{partial .path (dict "moduleinfo" . "color" $white_ot)}}
+  {{- else if eq .color "darkblue_ot" -}}
+    {{partial .path (dict "moduleinfo" . "color" $darkblue_ot)}}
   {{- else if eq .color "nothing" -}}
     {{partial .path (dict "moduleinfo" . "color" $black)}}
   {{- else -}}
