@@ -1,15 +1,13 @@
----
-title: Header eNews
-layout: standard
++++
+moduletypes=[ "header" ]
+title='Header eNews'
 
-header_enews_title: Title
-header_enews_date: Date
-header_enews_copy: Some long copy
+[[module]]
+path='email_modules/header/enews'
+color='white'
 
----
+title='''http://google.com'''
+date='''ford_credit_20160401'''
+copy='''http://google.com'''
 
-<%= partial "modules/#{lang}/head" %>
-
-<%= partial "modules/#{lang}/header/enews" %>
-
-<%= partial "modules/#{lang}/foot" %>
++++

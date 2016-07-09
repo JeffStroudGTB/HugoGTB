@@ -1,14 +1,12 @@
----
-title: Header Logo
-layout: standard
++++
+moduletypes=[ "header" ]
+title='Header Logo'
 
-header_logo_image: lightblue
-header_logo_url: http://google.com
+[[module]]
+path='email_modules/header/logo'
+color='white'
 
----
+url='''http://google.com'''
+image='''ford_credit_20160401'''
 
-<%= partial "modules/#{lang}/head" %>
-
-<%= partial "modules/#{lang}/header/logo" %>
-
-<%= partial "modules/#{lang}/foot" %>
++++
