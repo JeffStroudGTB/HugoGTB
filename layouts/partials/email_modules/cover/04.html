@@ -1,13 +1,13 @@
 <!-- cover/04/black Starts-->
-<table width="640" border="0" cellspacing="0" cellpadding="0" bgcolor="#000001" class="resize_table_to_320" align="center">
+<table width="640" border="0" cellspacing="0" cellpadding="0" bgcolor="{{.color.backgroundcolor}}" class="resize_table_to_320" align="center">
   <tr>
     <td style="padding:30px;" valign="top">
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
-          <td style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif'; padding-bottom:20px;">{{ .moduleinfo.title }}</td>
+          <td style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:{{.color.heading2}}; font-family: 'Arial','Helvetica','Sans-Serif'; padding-bottom:20px;">{{ .moduleinfo.title }}</td>
         </tr>
         <tr>
-          <td style="text-align:center; color:#B3B3B3; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; line-height: 21px;
+          <td style="text-align:center; color:{{.color.txtbody}}; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; line-height: 21px;
           font-weight: normal; font-style: regular; padding-bottom:20px;">{{ .moduleinfo.copy | markdownify }}</td>
         </tr>
         <tr>
@@ -15,26 +15,26 @@
             <table border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
-                  <a href="{{ .moduleinfo.cta1_url }}" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;">
+                  <a href="{{ .moduleinfo.cta1_url }}" target="_blank" title="" style="color:{{.color.ctaicontext}}; text-decoration:none;">
                     {{ .moduleinfo.cta1_text }}
                   </a>
                 </td>
                 <td align="center" valign="top" style="padding-left:10px;">
                   <a href="{{ .moduleinfo.cta1_url }}" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;">
-                    <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{ .moduleinfo.cta_icon }}_white.gif" width="20" height="20"  border="0" style="display:block;"/>
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{ .moduleinfo.cta_icon }}_{{.color.ctaicon}}.gif" width="20" height="20"  border="0" style="display:block;"/>
                   </a>
                 </td>
                 <td>
                   <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="30"  border="0" style="display:block;" />
                 </td>
                 <td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
-                  <a href="{{ .moduleinfo.cta2_url }}" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;">
+                  <a href="{{ .moduleinfo.cta2_url }}" target="_blank" title="" style="color:{{.color.ctaicontext}}; text-decoration:none;">
                     {{ .moduleinfo.cta2_text }}
                   </a>
                 </td>
                 <td align="center" valign="top" style="padding-left:10px;">
                   <a href="{{ .moduleinfo.cta2_url }}" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;">
-                    <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{ .moduleinfo.cta_icon }}_white.gif" width="20" height="20"  border="0" style="display:block;"/>
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{ .moduleinfo.cta_icon }}_{{.color.ctaicon}}.gif" width="20" height="20"  border="0" style="display:block;"/>
                   </a>
                 </td>
               </tr>
