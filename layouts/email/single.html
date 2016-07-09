@@ -1,4 +1,4 @@
-{{- partial "modules/header" . -}}
+{{- partial "email_modules/header" . -}}
 {{- $black := .Site.Data.emails.black -}}
 {{- $fordblue := .Site.Data.emails.fordblue -}}
 {{- $darkblue := .Site.Data.emails.darkblue -}}
@@ -26,5 +26,4 @@
   {{- else -}}
     <p style="text-align:center">{{.color}} is not a valid color for module with path: {{.path}}</p>
   {{- end -}}
-{{- end -}}
-{{ partial "modules/footer" . }}
+{{- end -}}{{ partial "email_modules/footer" . }}
