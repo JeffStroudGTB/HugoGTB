@@ -1,11 +1,9 @@
----
-title: Spacer Platinum 20
-layout: standard
++++
+moduletypes=[ "image" ]
+title='Spacer Platinum 20px'
 
----
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
 
-<%= partial "modules/#{lang}/head" %>
-
-<%= partial "modules/#{lang}/spacer/platinum_20" %>
-
-<%= partial "modules/#{lang}/foot" %>
++++
