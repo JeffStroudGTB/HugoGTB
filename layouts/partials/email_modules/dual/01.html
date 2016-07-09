@@ -13,7 +13,7 @@
               </tr>
               <tr>
                <td  align="center" valign="top">
-                  <img   src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/<%= current_page.data.dual_01_white_icon1 %>.png" style="display:block;" 
+                  <img   src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{ .moduleinfo.icon1 }}.png" style="display:block;" 
                   />
                </td>
              </tr>
@@ -21,13 +21,13 @@
               <td height="20px" align="center">&nbsp;</td>
             </tr>
             <tr>
-              <td valign="top" style=" font-size:24px; line-height:30px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif';" align="center" ><%= current_page.data.dual_01_white_title1 %></td>
+              <td valign="top" style=" font-size:24px; line-height:30px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif';" align="center" >{{ .moduleinfo.title1 }}</td>
             </tr>
             <tr>
               <td height="20px">&nbsp;</td>
             </tr>
             <tr>
-              <td valign="top" style=" font-size:16px; line-height:21px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif'; color:#616161;" align="center" ><%= current_page.data.dual_01_white_copy1 %></td>
+              <td valign="top" style=" font-size:16px; line-height:21px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif'; color:#616161;" align="center" >{{ .moduleinfo.copy1 }}</td>
             </tr>
             <tr>
               <td height="20px">
@@ -42,7 +42,7 @@
                     style="padding-left:20px; padding-right:20px; text-align:center;
                     font-family: 'Arial','Helvetica','Sans-Serif'; 
                     font-size:16px; color:#FFF;">
-                      <a href="<%= current_page.data.dual_01_white_cta1_url %>" target="_blank" title="" style="width:100%; display:block; color:#FFFFFF; text-decoration:none;"><%= current_page.data.dual_01_white_cta1_text %></a>
+                      <a href="{{ .moduleinfo.cta1_url }}" target="_blank" title="" style="width:100%; display:block; color:#FFFFFF; text-decoration:none;">{{ .moduleinfo.cta1_text }}</a>
                     </td>
                   </tr>
                 </table>
@@ -72,21 +72,21 @@
             </tr>
             <tr>
               <td  align="center" valign="top">
-                <img   src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/<%= current_page.data.dual_01_white_icon2 %>.png" style="display:block;" />
+                <img   src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{ .moduleinfo.icon2 }}.png" style="display:block;" />
               </td>
             </tr>
             <tr>
               <td height="20px" align="center">&nbsp;</td>
             </tr>
             <tr>
-              <td valign="top" style=" font-size:24px; line-height:30px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif';" align="center"  ><%= current_page.data.dual_01_white_title2 %>
+              <td valign="top" style=" font-size:24px; line-height:30px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif';" align="center"  >{{ .moduleinfo.title2 }}
               </td>
             </tr>
             <tr>
               <td height="20px">&nbsp;</td>
             </tr>
             <tr>
-              <td valign="top" style=" font-size:16px; line-height:21px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif'; color:#616161;" align="center"><%= current_page.data.dual_01_white_copy2 %></td>
+              <td valign="top" style=" font-size:16px; line-height:21px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif'; color:#616161;" align="center">{{ .moduleinfo.copy2 }}</td>
             </tr>
             <tr>
               <td height="20px">
@@ -100,7 +100,7 @@
                     <td bgcolor="#2D96CD"  height="40" valign="middle" align="center" 
                     style="padding-left:20px; padding-right:20px; text-align:center;
                     font-family: 'Arial','Helvetica','Sans-Serif'; 
-                    font-size:16px; color:#FFF;"><a href="<%= current_page.data.dual_01_white_cta2_url %>" target="_blank" title="" style="width:100%; display:block; color:#FFFFFF; text-decoration:none;"><%= current_page.data.dual_01_white_cta2_text %></a></td>
+                    font-size:16px; color:#FFF;"><a href="{{ .moduleinfo.cta2_url }}" target="_blank" title="" style="width:100%; display:block; color:#FFFFFF; text-decoration:none;">{{ .moduleinfo.cta2_text }}</a></td>
                   </tr>
                 </table>
               </td>

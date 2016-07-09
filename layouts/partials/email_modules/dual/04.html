@@ -7,24 +7,24 @@
           <table width="100%" cellpadding="0" cellspacing="0" border="0">
             <tr>
               <td align="center" valign="top">
-                <img  src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/<%= current_page.data.dual_04_white_icon1 %>.png" style="display:block;"  />
+                <img  src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{ .moduleinfo.icon1 }}.png" style="display:block;"  />
               </td>
             </tr>
             <tr>
               <td height="20px" align="center">&nbsp;</td>
             </tr>
             <tr>
-              <td valign="top" height="30" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:24px; line-height: 30px; font-weight: normal; font-style: regular;" align="center" ><%= current_page.data.dual_04_white_title1 %></td>
+              <td valign="top" height="30" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:24px; line-height: 30px; font-weight: normal; font-style: regular;" align="center" >{{ .moduleinfo.title1 }}</td>
             </tr>
             <tr>
               <td height="20px">&nbsp;</td>
             </tr>
             <tr>
-              <td valign="top" style="text-align:center; color:#616161; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; line-height: 21px;font-weight: normal; font-style: regular; "><%= current_page.data.dual_04_white_copy1 %></td>
+              <td valign="top" style="text-align:center; color:#616161; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; line-height: 21px;font-weight: normal; font-style: regular; ">{{ .moduleinfo.copy1 | markdownify }}</td>
             </tr>
             <tr>
               <td valign="top" style="text-align:center; color:#616161; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; line-height: 15px;font-weight: normal; font-style: regular;"></br>
-                <a style="text-decoration:underline; color:#2D96CD; line-height:15px" href="<%= current_page.data.dual_04_white_cta1a_url %>" ><%= current_page.data.dual_04_white_cta1a_text %></a><a style="text-decoration:underline; color:#2D96CD; line-height:15px" href="<%= current_page.data.dual_04_white_cta1b_url %>" ><%= current_page.data.dual_04_white_cta1b_text %></a><a style="text-decoration:underline; color:#2D96CD;" href="<%= current_page.data.dual_04_white_cta1c_url %>" ><%= current_page.data.dual_04_white_cta1c_text %></a>
+                <a style="text-decoration:underline; color:#2D96CD; line-height:15px" href="{{ .moduleinfo.cta1a_url }}" >{{ .moduleinfo.cta1a_text | markdownify }}</a><a style="text-decoration:underline; color:#2D96CD; line-height:15px" href="{{ .moduleinfo.cta1b_url }}" >{{ .moduleinfo.cta1b_text | markdownify }}</a><a style="text-decoration:underline; color:#2D96CD;" href="{{ .moduleinfo.cta1c_url }}" >{{ .moduleinfo.cta1c_text | markdownify }}</a>
               </td>
             </tr>
           </table>
@@ -37,24 +37,24 @@
           <table width="100%" cellpadding="0" cellspacing="0" border="0">
             <tr>
               <td align="center" valign="top">
-                <img  src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/<%= current_page.data.dual_04_white_icon2 %>.png" style="display:block;"  />
+                <img  src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{ .moduleinfo.icon2 }}.png" style="display:block;"  />
               </td>
             </tr>
             <tr>
               <td height="20px" align="center">&nbsp;</td>
             </tr>
             <tr>
-              <td valign="top" height="30" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:24px; line-height: 30px; font-weight: normal; font-style: regular;" align="center" ><%= current_page.data.dual_04_white_title2 %></td>
+              <td valign="top" height="30" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:24px; line-height: 30px; font-weight: normal; font-style: regular;" align="center" >{{ .moduleinfo.title2 }}</td>
             </tr>
             <tr>
               <td height="20px">&nbsp;</td>
             </tr>
             <tr>
-              <td valign="top" style="text-align:center; color:#616161; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; line-height: 21px;font-weight: normal; font-style: regular; "><%= current_page.data.dual_04_white_copy2 %></td>
+              <td valign="top" style="text-align:center; color:#616161; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; line-height: 21px;font-weight: normal; font-style: regular; ">{{ .moduleinfo.copy2 | markdownify }}</td>
             </tr>
             <tr>
               <td valign="top" style="text-align:center; color:#616161; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; line-height: 15px;font-weight: normal; font-style: regular;"></br>
-                <a style="text-decoration:underline; color:#2D96CD; line-height:15px" href="<%= current_page.data.dual_04_white_cta2a_url %>" ><%= current_page.data.dual_04_white_cta2a_text %></a><a style="text-decoration:underline; color:#2D96CD; line-height:15px" href="<%= current_page.data.dual_04_white_cta2b_url %>" ><%= current_page.data.dual_04_white_cta2b_text %></a><a style="text-decoration:underline; color:#2D96CD;" href="<%= current_page.data.dual_04_white_cta2c_url %>" ><%= current_page.data.dual_04_white_cta2c_text %></a>
+                <a style="text-decoration:underline; color:#2D96CD; line-height:15px" href="{{ .moduleinfo.cta2a_url }}" >{{ .moduleinfo.cta2a_text | markdownify }}</a><a style="text-decoration:underline; color:#2D96CD; line-height:15px" href="{{ .moduleinfo.cta2b_url }}" >{{ .moduleinfo.cta2b_text | markdownify }}</a><a style="text-decoration:underline; color:#2D96CD;" href="{{ .moduleinfo.cta2c_url }}" >{{ .moduleinfo.cta2c_text | markdownify }}</a>
               </td>
             </tr>
           </table>
