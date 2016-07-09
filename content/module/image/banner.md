@@ -1,14 +1,12 @@
----
-title: Image Banner
-layout: standard
++++
+moduletypes=[ "image" ]
+title='Banner Image'
 
-image_banner_image: cashback_20160328
-image_banner_url: http://www.google.com
+[[module]]
+path='email_modules/image/banner'
+color='white'
 
----
+image='''cashback_20160328'''
+url='''http://google.com'''
 
-<%= partial "modules/#{lang}/head" %>
-
-<%= partial "modules/#{lang}/image/banner" %>
-
-<%= partial "modules/#{lang}/foot" %>
++++
