@@ -5,27 +5,27 @@
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
           <td class="drop" align="left" valign="top">
-          <a href="<%= current_page.data.split_09_black_cta_url %>" title="" target="_blank" style="color:#FFFFFF; text-decoration:none;">
-          <img class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/<%= current_page.data.split_09_black_image %>_tile.jpg" width="320"  border="0" style="display:block;"/>
+          <a href="{{ .moduleinfo.cta_url }}" title="" target="_blank" style="color:#FFFFFF; text-decoration:none;">
+          <img class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{ .moduleinfo.image }}_tile.jpg" width="320"  border="0" style="display:block;"/>
             </a>
           </td>
           <td class="drop" align="left" valign="top">
             <table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td align="left" valign="top" style="color:#FFFFFF; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular; padding-bottom:20px; padding-top:30px; padding-left:30px; padding-right:30px;">
-                <%= current_page.data.split_09_black_title %>
+                {{ .moduleinfo.title }}
                 </td>
               </tr>
               <tr>
                 <td bgcolor="#000001" align="left" valign="top" style="font-Size: 16px; color:#B3B3B3; font-family: 'Arial','Helvetica','Sans-Serif'; padding-left:30px; padding-right:30px; padding-bottom:20px; line-height: 21px; mso-line-height-rule:exactly; font-weight: normal; font-style: regular; ">
-                <%= current_page.data.split_09_black_copy %>
+                {{ .moduleinfo.copy }}
                 </td>
               </tr>
               <tr>
                 <td valign="top" align="left" style="padding-left:30px; padding-right:30px; padding-bottom:30px;">
                   <table  border="0"  cellspacing="0" cellpadding="0" bgcolor="#2D96CD">
                     <tr>
-                      <td height="40" valign="middle" align="center" style="padding-left:20px; padding-right:20px; text-align:center; color:#ffffff; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; color#FFF"><a href="<%= current_page.data.split_09_black_cta_url %>" style="text-decoration:underline; color:#FFF; font-size:16px; line-height:21px; font-weight:normal; font-style:regular; text-decoration:none;"><%= current_page.data.split_09_black_cta_text %></a></td>
+                      <td height="40" valign="middle" align="center" style="padding-left:20px; padding-right:20px; text-align:center; color:#ffffff; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; color#FFF"><a href="{{ .moduleinfo.cta_url }}" style="text-decoration:underline; color:#FFF; font-size:16px; line-height:21px; font-weight:normal; font-style:regular; text-decoration:none;">{{ .moduleinfo.cta_text }}</a></td>
                     </tr>
                   </table>
                 </td>
