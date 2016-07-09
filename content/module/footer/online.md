@@ -1,24 +1,31 @@
----
-title: Footer Online
-layout: standard
++++
+moduletypes=[ "footer" ]
+title='Footer Online'
 
-footer_online_text: copy goes here
+[[module]]
+path='email_modules/footer/au/online'
+color='white'
 
----
+[[module]]
+path='email_modules/footer/in/online'
+color='white'
 
-<%= partial "modules/#{lang}/head" %>
+[[module]]
+path='email_modules/footer/ph/online'
+color='white'
 
-<p style="text-align: center;">General Version</p>
-<%= partial "modules/#{lang}/footer/online" %>
-<p style="text-align: center;">AU Version</p>
-<%= partial "modules/#{lang}/footer/au/online" %>
-<p style="text-align: center;">IN Version</p>
-<%= partial "modules/#{lang}/footer/in/online" %>
-<p style="text-align: center;">PH Version</p>
-<%= partial "modules/#{lang}/footer/ph/online" %>
-<p style="text-align: center;">TH Version</p>
-<%= partial "modules/#{lang}/footer/th/online" %>
-<p style="text-align: center;">VN Version</p>
-<%= partial "modules/#{lang}/footer/vn/online" %>
+[[module]]
+path='email_modules/footer/th/online'
+color='white'
 
-<%= partial "modules/#{lang}/foot" %>
+[[module]]
+path='email_modules/footer/vn/online'
+color='white'
+
+[[module]]
+path='email_modules/footer/online'
+color='white'
+
+copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
+
++++
