@@ -1,3 +1,4 @@
+#for all cover and splits currently
 backgroundcolor="#91A4B1"
 heading1=""
 heading2="#FFFFFF"
@@ -9,6 +10,9 @@ ctaoutline="#FFFFFF"
 ctaicontext="#FFFFFF"
 ctaicon="white"
 #For service module
-txtreportg="#000001"
-txtreporty="#000001"
-txtreportr="#FFFFFF"
+greentxtreport="#000001"
+greensvcbg="#1BBC9B"
+yellowtxtreport="#000001"
+yellowsvcbg="#E2BD2B"
+redtxtreport="#FFFFFF"
+redsvcbg="#D0021B"
