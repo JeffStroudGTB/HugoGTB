@@ -5,12 +5,12 @@
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
           <td align="center" valign="top" style="color:#FFFFFF; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular; padding-bottom:20px;">
-            <%= current_page.data.cover_03_black_title %>
+            {{ .moduleinfo.title }}
           </td>
         </tr>
         <tr>
           <td bgcolor="#000001" align="center" valign="top" style="font-Size: 16px; color:#B3B3B3; font-family: 'Arial','Helvetica','Sans-Serif'; padding-bottom:20px; line-height: 21px; mso-line-height-rule:exactly; font-weight: normal; font-style: regular;">
-            <%= current_page.data.cover_03_black_copy %>
+            {{ .moduleinfo.copy | markdownify }}
           </td>
         </tr>
         <tr>
@@ -18,13 +18,13 @@
             <table border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
-                  <a href="<%= current_page.data.cover_03_black_cta_url %>" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;">
-                    <%= current_page.data.cover_03_black_cta_text %>
+                  <a href="{{ .moduleinfo.cta_url }}" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;">
+                    {{ .moduleinfo.cta_text }}
                   </a>
                 </td>
                 <td align="center" valign="top" style="padding-left:10px;">
-                  <a href="<%= current_page.data.cover_03_black_cta_url %>" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;">
-                    <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_<%= current_page.data.cover_03_black_cta_icon %>_white.gif" width="20" height="20"  border="0" style="display:block;"/>
+                  <a href="{{ .moduleinfo.cta_url }}" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;">
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{ .moduleinfo.cta_icon }}_white.gif" width="20" height="20"  border="0" style="display:block;"/>
                   </a>
                 </td>
               </tr>

@@ -4,11 +4,11 @@
     <td style="padding:30px;" valign="top">
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
-          <td style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif'; padding-bottom:20px;"><%= current_page.data.cover_10_black_title %></td>
+          <td style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif'; padding-bottom:20px;">{{ .moduleinfo.title }}</td>
         </tr>
         <tr>
           <td style="text-align:center; color:#B3B3B3; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; line-height: 21px;
-          font-weight: normal; font-style: regular;"><%= current_page.data.cover_10_black_copy %></td>
+          font-weight: normal; font-style: regular;">{{ .moduleinfo.copy | markdownify }}</td>
         </tr>
       </table>
     </td>
