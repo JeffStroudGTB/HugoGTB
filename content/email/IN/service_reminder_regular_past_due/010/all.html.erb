@@ -1,0 +1,74 @@
++++
+title: IN Service Reminder Regular Past Due 010 All
+layout: standard
+
+preheader: 
+
+header_logo_image: white
+header_logo_url: http://google.com
+
+cover_06_white_title: White Title
+cover_06_white_copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+cover_06_white_cta1_text: Click me!
+cover_06_white_cta1_url: http://google.com
+cover_06_white_cta2_text: Click me long time!
+cover_06_white_cta2_url: http://google.com
+cover_06_white_icon: ew
+
+custom_06_white_text: White Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+image_banner_image1: cashback_20160328
+image_banner_url1: http://www.google.com
+
+custom_02_white_title1: Title 1
+custom_02_white_text1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+custom_02_white_textlink1_text: This is a link!
+custom_02_white_textlink1_url: https://google.com
+custom_02_white_title2: Title 2
+custom_02_white_text2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+custom_02_white_title3: Title 3
+custom_02_white_text3: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+custom_02_white_textlink2_text: This is a link!
+custom_02_white_textlink2_url: https://google.com
+custom_02_white_cta_text: CLICK HERE
+custom_02_white_cta_url: http://google.com
+
+cover_05_white_title: White Title
+cover_05_white_copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+cover_05_white_cta_text: Click me!
+cover_05_white_cta_url: http://google.com
+cover_05_white_icon: ew
+
+custom_01_white_title: Custom 01 Title
+custom_01_white_icon1: ew
+custom_01_white_text1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+custom_01_white_icon2: ew
+custom_01_white_text2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+custom_01_white_icon3: ew
+custom_01_white_text3: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+image_banner_image2: cashback_20160328
+image_banner_url2: http://www.google.com
+
+footer_in_4icons_icon1_image: dealers_20160401
+footer_in_4icons_icon2_image: ford_credit_20160401
+footer_in_4icons_icon3_image: customer_care_number_20160401
+footer_in_4icons_icon4_image: rsa_no_20160615
+
++++
+
+<%= partial "modules/#{lang}/head" %>
+
+<%= partial "modules/#{lang}/header/logo" %>
+<%= partial "modules/#{lang}/cover/06/white" %>
+<%= partial "modules/#{lang}/custom/06/white" %>
+<%= partial "modules/#{lang}/image/banner1", :locals => { :bannerimage => current_page.data.image_banner_image1, :bannerurl => current_page.data.image_banner_url1 }  %>
+<%= partial "modules/#{lang}/custom/02/white"%>
+<%= partial "modules/#{lang}/cover/05/white" %>
+<%= partial "modules/#{lang}/custom/01/white"%>
+<%= partial "modules/#{lang}/image/banner1", :locals => { :bannerimage => current_page.data.image_banner_image2, :bannerurl => current_page.data.image_banner_url2 }  %>
+<%= partial "modules/#{lang}/footer/in/4icons" %>
+<%= partial "modules/#{lang}/footer/in/social" %>
+<%= partial "modules/#{lang}/footer/in/online" %>
+
+<%= partial "modules/#{lang}/foot" %>

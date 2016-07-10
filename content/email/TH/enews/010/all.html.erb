@@ -1,0 +1,57 @@
++++
+title: TH Enews 010 All
+layout: standard
+
+preheader: 
+
+header_enews_title: Title
+header_enews_date: Date
+header_enews_copy: Some long copy
+
+header_logo_image: lightblue
+header_logo_url: http://google.com
+
+custom_enews_topstory_black_title: Black Title
+custom_enews_topstory_black_copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+custom_enews_topstory_black_cta_text: Click me!
+custom_enews_topstory_black_cta_url: http://google.com
+custom_enews_topstory_black_cta_icon: play
+
+image_banner_image1: cashback_20160328
+image_banner_url1: http://www.google.com
+
+split_01_lightblue_title: Lightblue Title
+split_01_lightblue_copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+split_01_lightblue_cta_text: Click me!
+split_01_lightblue_cta_url: http://google.com
+split_01_lightblue_cta_icon: play
+split_01_lightblue_image: tms_20160328
+
+split_02_green_title: Green Title
+split_02_green_copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+split_02_green_cta_text: Click me!
+split_02_green_cta_url: http://google.com
+split_02_green_cta_icon: play
+split_02_green_image: tms_20160328
+
+cover_05_white_title: White Title
+cover_05_white_copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+cover_05_white_cta_text: Click me!
+cover_05_white_cta_url: http://google.com
+cover_05_white_icon: ew
+
++++
+
+<%= partial "modules/#{lang}/head" %>
+
+<%= partial "modules/#{lang}/header/enews" %>
+<%= partial "modules/#{lang}/header/logo" %>
+<%= partial "modules/#{lang}/custom/enews/topstory" %>
+<%= partial "modules/#{lang}/image/banner1", :locals => { :bannerimage => current_page.data.image_banner_image1, :bannerurl => current_page.data.image_banner_url1 }  %>
+<%= partial "modules/#{lang}/split/01/lightblue" %>
+<%= partial "modules/#{lang}/split/02/green" %>
+<%= partial "modules/#{lang}/cover/05/white" %>
+<%= partial "modules/#{lang}/footer/th/social" %>
+<%= partial "modules/#{lang}/footer/th/online" %>
+
+<%= partial "modules/#{lang}/foot" %>
