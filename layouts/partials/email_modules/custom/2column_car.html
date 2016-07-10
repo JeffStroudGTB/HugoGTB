@@ -5,7 +5,7 @@
       <table class="drop" width="320" style="width:320px;" border="0" cellspacing="0" cellpadding="0">
         <tr>
           <td   align="center"   valign="top">
-            <img   src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/<%= current_page.data.custom_car_2column_white_image1 %>_tile.jpg"  border="0"   class="img_Rez" />
+            <img   src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{ .moduleinfo.image1 }}_tile.jpg"  border="0"   class="img_Rez" />
           </td>
         </tr>
         <tr>
@@ -22,13 +22,13 @@
                         <table border="0" cellspacing="0" cellpadding="0">
                           <tr>
                             <td align="left" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#2D96CD; font-family: 'Arial','Helvetica','Sans-Serif';">
-                              <a href="<%= current_page.data.custom_car_2column_white_cta1_url %>" target="_blank" title="" style="color:#2D96CD; text-decoration:none;">
-                                <%= current_page.data.custom_car_2column_white_cta1_text %>
+                              <a href="{{ .moduleinfo.cta1_url }}" target="_blank" title="" style="color:#2D96CD; text-decoration:none;">
+                                {{ .moduleinfo.cta1_text }}
                               </a>
                             </td>
                             <td align="left" valign="top" style="padding-left:10px;">
-                              <a href="<%= current_page.data.custom_car_2column_white_cta1_url %>" title="" target="_blank" style="color:#2D96CD; text-decoration:none;">
-                                <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_<%= current_page.data.custom_car_2column_white_cta1_icon %>_lightblue.gif" width="20" height="20"  border="0" style="display:block;"/>
+                              <a href="{{ .moduleinfo.cta1_url }}" title="" target="_blank" style="color:#2D96CD; text-decoration:none;">
+                                <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{ .moduleinfo.cta1_icon }}_lightblue.gif" width="20" height="20"  border="0" style="display:block;"/>
                               </a>
                             </td>
                           </tr>
@@ -50,7 +50,7 @@
       <table width="320" class="drop" border="0" cellspacing="0" cellpadding="0">
         <tr>
           <td   align="center"   valign="top">
-            <img   src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/<%= current_page.data.custom_car_2column_white_image2 %>_tile.jpg"   border="0"   class="img_Rez" />
+            <img   src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{ .moduleinfo.image2 }}_tile.jpg"   border="0"   class="img_Rez" />
           </td>
         </tr>
         <tr>
@@ -67,13 +67,13 @@
                         <table border="0" cellspacing="0" cellpadding="0">
                           <tr>
                             <td align="left" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#2D96CD; font-family: 'Arial','Helvetica','Sans-Serif';">
-                              <a href="<%= current_page.data.custom_car_2column_white_cta2_url %>" target="_blank" title="" style="color:#2D96CD; text-decoration:none;">
-                                <%= current_page.data.custom_car_2column_white_cta2_text %>
+                              <a href="{{ .moduleinfo.cta2_url }}" target="_blank" title="" style="color:#2D96CD; text-decoration:none;">
+                                {{ .moduleinfo.cta2_text }}
                               </a>
                             </td>
                             <td align="left" valign="top" style="padding-left:10px;">
-                              <a href="<%= current_page.data.custom_car_2column_white_cta2_url %>" title="" target="_blank" style="color:#2D96CD; text-decoration:none;">
-                                <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_<%= current_page.data.custom_car_2column_white_cta2_icon %>_lightblue.gif" width="20" height="20"  border="0" style="display:block;"/>
+                              <a href="{{ .moduleinfo.cta2_url }}" title="" target="_blank" style="color:#2D96CD; text-decoration:none;">
+                                <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{ .moduleinfo.cta2_icon }}_lightblue.gif" width="20" height="20"  border="0" style="display:block;"/>
                               </a>
                             </td>
                           </tr>
