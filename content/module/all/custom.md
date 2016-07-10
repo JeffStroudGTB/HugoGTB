@@ -37,4 +37,35 @@ color='black'
 
   custom_06_white_text = '''White Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
 
+[[module]] #Custom eNews Header
+path='email_modules/custom/06'
+color='black'
+
+  header_enews_title = '''Title'''
+  header_enews_date = '''Date'''
+  header_enews_copy = '''Some long copy'''
+  
+[[module]] # eNews Top Story
+path='email_modules/custom/enews_topstory'
+color='black'
+
+  custom_enews_topstory_black_title = '''Black Title'''
+  custom_enews_topstory_black_copy = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
+  custom_enews_topstory_black_cta_text = '''Click me!'''
+  custom_enews_topstory_black_cta_url = '''http://google.com'''
+  custom_enews_topstory_black_cta_icon = '''play'''
+    
+[[module]] # eNews Top Story
+path='email_modules/custom/2column_car'
+color='black'
+
+  custom_car_2column_white_image1 = '''science_of_truck_20160328'''
+  custom_car_2column_white_cta1_text = '''Click Here For Details'''
+  custom_car_2column_white_cta1_url = '''http://google.com'''
+  custom_car_2column_white_cta1_icon = '''more'''
+  custom_car_2column_white_image2 = '''tms_20160328'''
+  custom_car_2column_white_cta2_text = '''Click Here for 2nd Details'''
+  custom_car_2column_white_cta2_url = '''http://bing.com'''
+  custom_car_2column_white_cta2_icon = '''play'''
+
 +++

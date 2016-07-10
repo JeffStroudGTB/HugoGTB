@@ -2,49 +2,49 @@
 moduletypes=[ "all" ]
 title='All Splits'
 
-[[module]]
+[[module]] #Split 01
 path='email_modules/split/01'
-
 color='black'
-title='''Black Title'''
-copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'''
-cta_text='''Click me!'''
-cta_url='''http://google.com'''
-cta_icon='''play'''
-image='''tms_20160328'''
 
-[[module]]
+  title='''Black Title'''
+  copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'''
+  cta_text='''Click me!'''
+  cta_url='''http://google.com'''
+  cta_icon='''play'''
+  image='''tms_20160328'''
+
+[[module]] #Split 02
 path='email_modules/split/02'
 color='black'
 
-title='''Black Title'''
-copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'''
-cta_text='''Click me!'''
-cta_url='''http://google.com'''
-cta_icon='''play'''
-image='''tms_20160328'''
+  title='''Black Title'''
+  copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'''
+  cta_text='''Click me!'''
+  cta_url='''http://google.com'''
+  cta_icon='''play'''
+  image='''tms_20160328'''
 
-[[module]]
+[[module]] #Split 03
 path='email_modules/split/03'
 color='black'
 
-title='''Black Title'''
-copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'''
-cta_text='''Click me!'''
-cta_url='''http://google.com'''
-cta_icon='''play'''
-image='''tms_20160328'''
+  title='''Black Title'''
+  copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'''
+  cta_text='''Click me!'''
+  cta_url='''http://google.com'''
+  cta_icon='''play'''
+  image='''tms_20160328'''
 
-[[module]]
+[[module]] #Split 04
 path='email_modules/split/04'
 color='black'
 
-title='''Black Title'''
-copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'''
-cta_text='''Click me!'''
-cta_url='''http://google.com'''
-cta_icon='''play'''
-image='''tms_20160328'''
+  title='''Black Title'''
+  copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'''
+  cta_text='''Click me!'''
+  cta_url='''http://google.com'''
+  cta_icon='''play'''
+  image='''tms_20160328'''
 
 [[module]]
 path='email_modules/split/05'
@@ -127,14 +127,14 @@ cta_text='''Click me!'''
 cta_url='''http://google.com'''
 image='''tms_20160328'''
 
-[[module]]
+[[module]] #Split 12
 path='email_modules/split/12'
 color='black'
 
-title='''Black Title'''
-copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'''
-cta_text='''Click me!'''
-cta_url='''http://google.com'''
-image='''tms_20160328'''
+  title='''Black Title'''
+  copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'''
+  cta_text='''Click me!'''
+  cta_url='''http://google.com'''
+  image='''tms_20160328'''
 
 +++
