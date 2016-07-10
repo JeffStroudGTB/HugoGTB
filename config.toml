@@ -1,6 +1,6 @@
-baseurl = "http://hugotest.herokuapp.com/"
-languageCode = "en-us"
-title = "Hugotest"
+baseurl = '''http://hugotest.herokuapp.com/'''
+languageCode = '''en-us'''
+title = '''Hugotest'''
 [taxonomies]
-market = "markets"
-moduletype = "moduletypes"
+market = '''markets'''
+moduletype = '''moduletypes'''
