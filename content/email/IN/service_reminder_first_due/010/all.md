@@ -7,8 +7,8 @@ title = '''IN Service Reminder First Due 010 All'''
 path='email_modules/header/logo'
 color='white'
 
-  header_logo_image = '''white'''
-  header_logo_url = '''http://google.com'''
+  image = '''white'''
+  url = '''http://google.com'''
 
 [[module]] #Cover 06
 path='email_modules/cover/06'

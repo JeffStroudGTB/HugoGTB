@@ -8,8 +8,8 @@ preheader = '''Your Ford Vehicle must be nearly ready for its 10,000km service.'
 path='email_modules/header/logo'
 color='white'
 
-  header_logo_image = '''white'''
-  header_logo_url = '''http://www.ford.com.ph/'''
+  image = '''white'''
+  url = '''http://www.ford.com.ph/'''
 
 [[module]] #Cover 06
 path='email_modules/cover/06'

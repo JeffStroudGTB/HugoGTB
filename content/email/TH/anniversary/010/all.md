@@ -8,8 +8,8 @@ preheader = '''preheader here'''
 path = 'email_modules/header/logo'
 color = 'white'
 
-  header_logo_image = '''white'''
-  header_logo_url = '''www.ford.co.th'''
+  image = '''white'''
+  url = '''www.ford.co.th'''
 
 [[module]] #Cover 10
 path='email_modules/cover/10'

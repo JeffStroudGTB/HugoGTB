@@ -8,8 +8,8 @@ preheader = '''preheader'''
 path='email_modules/header/logo'
 color='white'
 
-  header_logo_image = '''fordblue'''
-  header_logo_url = '''http://google.com'''
+  image = '''fordblue'''
+  url = '''http://google.com'''
 
 [[module]] #Cover 06
 path='email_modules/cover/06'

@@ -9,8 +9,8 @@ preheader = '''Quý vị có tin đã 12 tháng trôi qua kể từ ngày Quý v
 path='email_modules/header/logo'
 color='white'
 
-  header_logo_image = '''white'''
-  header_logo_url = '''http://www.ford.com.vn'''
+  image = '''white'''
+  url = '''http://www.ford.com.vn'''
 
 [[module]] #Cover 10
 path='email_modules/cover/10'

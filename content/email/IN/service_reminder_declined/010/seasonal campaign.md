@@ -7,8 +7,8 @@ title = '''IN Service Reminder Declined 010 seasonal campaign'''
 path='email_modules/image/banner'
 color='white'
 
-  header_logo_image = '''white'''
-  header_logo_url = '''https://www.india.ford.com/'''
+  image = '''white'''
+  url = '''https://www.india.ford.com/'''
 
 [[module]] #Cover 06
 path='email_modules/cover/06'

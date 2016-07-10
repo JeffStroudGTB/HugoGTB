@@ -8,8 +8,8 @@ preheader = '''We love having you in the family. There's nothing quite like a ne
 path='email_modules/header/logo'
 color='white'
 
-  header_logo_image = '''white'''
-  header_logo_url = '''https://www.india.ford.com'''
+  image = '''white'''
+  url = '''https://www.india.ford.com'''
 
 [[module]] #Cover 10
 path='email_modules/cover/10'

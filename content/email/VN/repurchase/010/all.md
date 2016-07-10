@@ -9,8 +9,8 @@ preheader = '''preheader'''
 path='email_modules/header/logo'
 color='white'
 
-  header_logo_image = '''black'''
-  header_logo_url = '''http://google.com'''
+  image = '''black'''
+  url = '''http://google.com'''
 
 [[module]] #Cover 07
 path='email_modules/cover/07'

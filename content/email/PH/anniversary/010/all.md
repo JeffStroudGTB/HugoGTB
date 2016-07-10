@@ -8,8 +8,8 @@ preheader = '''Can you believe it's been 12 months since you drove away in your 
 path='email_modules/header/logo'
 color='white'
 
-  header_logo_image = '''white'''
-  header_logo_url = '''http://www.ford.com.ph/'''
+  image = '''white'''
+  url = '''http://www.ford.com.ph/'''
 
 [[module]] #Cover 10
 path='email_modules/cover/10'

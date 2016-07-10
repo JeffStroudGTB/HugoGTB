@@ -8,8 +8,8 @@ preheader = '''ฟอร์ดขอแจ้งให้คุณทราบ�
 path='email_modules/header/logo'
 color='white'
 
-  header_logo_image = '''white'''
-  header_logo_url = '''http://www.ford.co.th'''
+  image = '''white'''
+  url = '''http://www.ford.co.th'''
 
 [[module]] #Cover 06
 path='email_modules/cover/06'
