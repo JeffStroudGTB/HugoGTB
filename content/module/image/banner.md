@@ -2,11 +2,11 @@
 moduletypes=[ "image" ]
 title='Banner Image'
 
-[[module]]
+[[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
-image='''cashback_20160328'''
-url='''http://google.com'''
+  image='''cashback_20160328'''
+  url='''http://google.com'''
 
 +++

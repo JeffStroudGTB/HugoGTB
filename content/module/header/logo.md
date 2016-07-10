@@ -2,7 +2,7 @@
 moduletypes=[ "header" ]
 title='Header Logo'
 
-[[module]]
+[[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
 
