@@ -30,6 +30,23 @@ color='black'
   custom_02_white_title1 = '''Title 1'''
   custom_02_white_title2 = '''Title 2'''
   custom_02_white_title3 = '''Title 3'''
+  
+[[module]] #Custom 05
+path='email_modules/custom/05'
+color='black'
+
+  custom_05_white_title1 = '''Service Checklist'''
+  custom_05_white_icon1 = '''ew'''
+  custom_05_white_text1 = '''Know what needs to be serviced, when.'''
+  custom_05_white_title2 = '''24h Roadside Assistance'''
+  custom_05_white_icon2 = '''ew'''
+  custom_05_white_text2 = '''Because well never leave you stranded. 	'''
+  custom_05_white_title3 = '''How-to Videos'''
+  custom_05_white_icon3 = '''ew'''
+  custom_05_white_text3 = '''Step-by-step guide to Ford tech. '''
+  custom_05_white_title4 = '''Dealer Locator'''
+  custom_05_white_icon4 = '''ew'''
+  custom_05_white_text4 = '''Because were always here for you.'''
 
 [[module]] #Custom 06
 path='email_modules/custom/06'
