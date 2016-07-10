@@ -1,4 +1,5 @@
 +++
+markets = ["th"]
 title = '''TH Lost Customer 010 All'''
 
 preheader = '''preheader'''
@@ -15,7 +16,7 @@ path='email_modules/cover/06'
 color='''black'''
 
   cover_06_fordblue_title = '''Fordblue Title'''
-  cover_06_fordblue_copy = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+  cover_06_fordblue_copy = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
   cover_06_fordblue_cta1_text = '''Click me!'''
   cover_06_fordblue_cta1_url = '''http://google.com'''
   cover_06_fordblue_cta2_text = '''Click me long time!'''

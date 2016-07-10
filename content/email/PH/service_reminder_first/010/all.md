@@ -37,7 +37,7 @@ color='''black'''
   cover_05_fordblue_title = '''We're there for you, anytime'''
   cover_05_fordblue_copy = '''It's good to know that when you drive your Ford, we're ready to help when you need it. Our Emergency Roadside Assistance is on-call, 24 hours a day, 7 days a week, and free of charge, in yousership. Call us whenever you need a hand if you run out of fuel, have a flat tyre, need help with a vehicle emergency and more. Just remember this number:(02) 459-4723'''
   cover_05_fordblue_cta_text = '''FIND OUT MORE'''
-  cover_05_fordblue_cta_url:http://www.ford.com.ph/buying/assistance'''
+  cover_05_fordblue_cta_url = '''http://www.ford.com.ph/buying/assistance'''
   cover_05_fordblue_icon = '''ew'''
 
 [[module]] #Cover 05

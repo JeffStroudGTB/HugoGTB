@@ -1,4 +1,5 @@
 +++
+markets = ["th"]
 title = '''TH Service Reminder First Due 010 All'''
 
 preheader = '''ฟอร์ดขอแจ้งให้คุณทราบว่า รถคันใหม่ของคุณ ถึงกำหนดตรวจเช็คระยะครั้งแรกแล้ว เนื่องจากรถใหม่ทุกคัน จะมีระยะในการปรับสภาพ การทำงานของรถ'''
@@ -39,7 +40,7 @@ path='email_modules/image/banner'
 color='white'
 
   image_banner_image = '''cashback_20160328'''
-  image_banner_url = '''
+  image_banner_url = ''''''
 
 [[module]] #Split 04
 path='email_modules/split/04'

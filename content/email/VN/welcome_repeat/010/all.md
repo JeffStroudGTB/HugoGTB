@@ -1,6 +1,6 @@
 +++
 markets = ["th"]
-title = '''TH Welcome First 010 All'''
+title = '''VN Welcome Repeat 010 All'''
 
 preheader = '''preheader'''
 
@@ -13,7 +13,7 @@ color='white'
 
 [[module]] #Cover 10
 path='email_modules/cover/10'
-color='''black'''
+color='''white'''
  
   cover_10_white_title = '''White Title'''
   cover_10_white_copy = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
@@ -60,14 +60,36 @@ color='black'
   owner_app_imgr_cta2_url = '''http://google.com'''
   owner_app_imgr_image = '''owner_app_20160328'''
 
-[[module]] #Cover 03
-path='email_modules/cover/03'
-color='black'
+[[module]] #Split 03
+path='email_modules/split/03'
+color='white'
 
-  cover_03_slatescreen_title = '''Slatescreen Title'''
-  cover_03_slatescreen_copy = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
-  cover_03_slatescreen_cta_text = '''Click me!'''
-  cover_03_slatescreen_cta_url = '''http://google.com'''
-  cover_03_slatescreen_cta_icon = '''play'''
+  split_03_white_title = '''White Title'''
+  split_03_white_copy = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'''
+  split_03_white_cta_text = '''Click me!'''
+  split_03_white_cta_url = '''http://google.com'''
+  split_03_white_cta_icon = '''play'''
+  split_03_white_image = '''tms_20160328'''
+
+[[module]] #Split 04
+path='email_modules/split/04'
+color='fordblue'
+
+  split_04_fordblue_title = '''Fordblue Title'''
+  split_04_fordblue_copy = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'''
+  split_04_fordblue_cta_text = '''Click me!'''
+  split_04_fordblue_cta_url = '''http://google.com'''
+  split_04_fordblue_cta_icon = '''play'''
+  split_04_fordblue_image = '''tms_20160328'''
+
+[[module]] #Cover 05
+path='email_modules/cover/05'
+color='''white'''
+
+  cover_05_white_title = '''White Title'''
+  cover_05_white_copy = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
+  cover_05_white_cta_text = '''Click me!'''
+  cover_05_white_cta_url = '''http://google.com'''
+  cover_05_white_icon = '''ew'''
 
 +++

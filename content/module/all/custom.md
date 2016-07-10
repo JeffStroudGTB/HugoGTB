@@ -6,13 +6,13 @@ title = 'All Covers'
 path='email_modules/custom/01'
 color='black'
 
-  custom_01_white_icon1 = '''ew'''
-  custom_01_white_icon2 = '''ew'''
-  custom_01_white_icon3 = '''ew'''
-  custom_01_white_text1 = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'''
-  custom_01_white_text2 = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'''
-  custom_01_white_text3 = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'''
   custom_01_white_title = '''Custom 01 Title'''
+  custom_01_white_icon1 = '''ew'''
+  custom_01_white_text1 = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'''
+  custom_01_white_icon2 = '''ew'''
+  custom_01_white_text2 = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'''
+  custom_01_white_icon3 = '''ew'''
+  custom_01_white_text3 = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'''
 
 [[module]] #Custom 02
 path='email_modules/custom/02'
@@ -55,7 +55,7 @@ color='black'
   custom_enews_topstory_black_cta_url = '''http://google.com'''
   custom_enews_topstory_black_cta_icon = '''play'''
     
-[[module]] # eNews Top Story
+[[module]] # Custom Car 2 Column
 path='email_modules/custom/2column_car'
 color='black'
 
@@ -67,5 +67,29 @@ color='black'
   custom_car_2column_white_cta2_text = '''Click Here for 2nd Details'''
   custom_car_2column_white_cta2_url = '''http://bing.com'''
   custom_car_2column_white_cta2_icon = '''play'''
+    
+[[module]] # Owner App Image Right
+path='email_modules/custom/ownerapp_imgr'
+color='black'
+
+  owner_app_imgr_title = '''Ford Owner App'''
+  owner_app_imgr_text = '''Owning a Ford has never been easier, thanks to the Ford Owners app&#58;<br/><br/>&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Utilize the service checklist<br/>&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Access Roadside Assistance<br/>&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Watch videos about your Ford<br/>&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Find a dealer near you'''
+  owner_app_imgr_cta1_text = '''iOS'''
+  owner_app_imgr_cta1_url = '''http://google.com'''
+  owner_app_imgr_cta2_text = '''Android'''
+  owner_app_imgr_cta2_url = '''http://google.com'''
+  owner_app_imgr_image = '''owner_app_20160328'''
+  
+[[module]] # Owner App Image Left
+path='email_modules/custom/ownerapp_imgl'
+color='black'
+
+  owner_app_imgr_title = '''Ford Owner App'''
+  owner_app_imgr_text = '''Owning a Ford has never been easier, thanks to the Ford Owners app&#58;<br/><br/>&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Utilize the service checklist<br/>&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Access Roadside Assistance<br/>&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Watch videos about your Ford<br/>&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Find a dealer near you'''
+  owner_app_imgr_cta1_text = '''iOS'''
+  owner_app_imgr_cta1_url = '''http://google.com'''
+  owner_app_imgr_cta2_text = '''Android'''
+  owner_app_imgr_cta2_url = '''http://google.com'''
+  owner_app_imgr_image = '''owner_app_20160328'''
 
 +++

@@ -1,8 +1,8 @@
 +++
 markets = ["th"]
-title = '''TH Welcome First 010 All'''
+title = '''TH Welcome Repeat 010 All
 
-preheader = '''preheader'''
+preheader = '''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -59,15 +59,5 @@ color='black'
   owner_app_imgr_cta2_text = '''Android'''
   owner_app_imgr_cta2_url = '''http://google.com'''
   owner_app_imgr_image = '''owner_app_20160328'''
-
-[[module]] #Cover 03
-path='email_modules/cover/03'
-color='black'
-
-  cover_03_slatescreen_title = '''Slatescreen Title'''
-  cover_03_slatescreen_copy = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
-  cover_03_slatescreen_cta_text = '''Click me!'''
-  cover_03_slatescreen_cta_url = '''http://google.com'''
-  cover_03_slatescreen_cta_icon = '''play'''
 
 +++
