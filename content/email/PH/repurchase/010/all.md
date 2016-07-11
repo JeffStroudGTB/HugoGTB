@@ -51,7 +51,8 @@ color='black'
   title = '''EcoBoost wins again!'''
   copy = '''Ford's 1.0L EcoBoost has won its eighth engine "Oscar" in four years! Discover what makes EcoBoost such a wonder of engineering.'''
   cta_text = '''FIND OUT MORE'''
-  cta_url = '''www.ford.com.ph/engineering/ecoboost/'''
+  cta_url = '''http://www.ford.com.ph/engineering/ecoboost/'''
+  cta_icon = '''play'''
   image = '''tms_20160328'''
 
 [[module]] #Cover 05

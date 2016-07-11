@@ -59,7 +59,7 @@ color='green'
   cta_text = '''LEARN MORE'''
   cta_url = '''http://www.ford.com.ph/buying/scheduledserviceplan'''
   cta_icon = '''play'''
-  image = '''tms_2060328_tile'''
+  image = '''tms_20160328'''
 
 [[module]] #Dual 02
 path='email_modules/dual/02'

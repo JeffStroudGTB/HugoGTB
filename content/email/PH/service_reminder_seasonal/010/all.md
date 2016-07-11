@@ -4,8 +4,8 @@ title = 'PH Service Reminder Seasonal 010 All'
 
 preheader = '''preheader here'''
 
-[[module]] #Banner Image
-path='email_modules/image/banner'
+[[module]] #Header Logo
+path='email_modules/header/logo'
 color='white'
 
   image = '''white'''
