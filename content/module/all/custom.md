@@ -1,6 +1,6 @@
 +++
 moduletypes = [ "All" ]
-title = 'All Covers'
+title = 'All Custom'
 
 [[module]] #Custom 01
 path='email_modules/custom/01'
