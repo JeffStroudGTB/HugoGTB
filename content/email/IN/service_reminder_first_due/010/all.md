@@ -88,4 +88,13 @@ color='white'
   icon3_image='''customer_care_number_20160401'''
   icon4_url='''http://google.com'''
   icon4_image='''rsa_no_20160615'''
+    
+[[module]]
+path='email_modules/footer/in/online'
+color='white'
+
+[[module]]
+path='email_modules/footer/in/social'
+color='white'
+
 +++

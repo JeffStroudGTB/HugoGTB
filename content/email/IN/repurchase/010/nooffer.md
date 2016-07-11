@@ -68,6 +68,15 @@ color='white'
   icon5_url='''http://google.com'''
   icon5_image='''rsa_no_20160401'''
   alt5 = '''alt text'''
+    
+[[module]]
+path='email_modules/footer/in/online'
+color='white'
+
+[[module]]
+path='email_modules/footer/in/social'
+color='white'
+
 
 
 +++
