@@ -6,7 +6,7 @@ title='Header Logo'
 path='email_modules/header/logo'
 color='white'
 
-url='''http://google.com'''
-image='''ford_credit_20160401'''
+url_link='''http://google.com'''
+image_banner='''ford_credit_20160401'''
 
 +++

@@ -7,6 +7,6 @@ path='email_modules/image/banner'
 color='white'
 
   image='''cashback_20160328'''
-  url='''http://google.com'''
+  url_link='''http://google.com'''
 
 +++
