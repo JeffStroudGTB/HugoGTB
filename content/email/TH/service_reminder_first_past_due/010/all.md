@@ -9,7 +9,7 @@ path='email_modules/header/logo'
 color='white'
 
     image = '''white'''
-    url = '''http://google.com'''
+    url_link = '''http://google.com'''
 
 [[module]] #Cover 05
 path='email_modules/cover/05'

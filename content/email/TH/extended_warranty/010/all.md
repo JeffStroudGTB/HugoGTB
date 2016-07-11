@@ -9,6 +9,6 @@ path='email_modules/header/logo'
 color='white'
 
   image = '''lightblue'''
-  url = '''http://google.com'''
+  url_link = '''http://google.com'''
 
 +++
