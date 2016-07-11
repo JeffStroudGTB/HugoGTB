@@ -77,7 +77,7 @@ color='black'
 path='email_modules/dual/04'
 color='white'
 
-  title1 = '''Owner Manual'''
+  title1 = '''Owner Manual<sup>&#160;</sup>'''
   copy1 = '''Download your Owners Manual on your device for access anytime anywhere. '''
   cta1a_text = '''DOWNLOAD NOW'''
   cta1a_url_link = '''http://www.india.ford.com/owner'''
