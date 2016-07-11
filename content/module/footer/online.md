@@ -2,27 +2,27 @@
 moduletypes=[ "footer" ]
 title='Footer Online'
 
-[[module]]
+[[module]] #AU Online
 path='email_modules/footer/au/online'
 color='white'
 
-[[module]]
+[[module]] #IN Online
 path='email_modules/footer/in/online'
 color='white'
 
-[[module]]
+[[module]] #PH Online
 path='email_modules/footer/ph/online'
 color='white'
 
-[[module]]
+[[module]] #TH Online
 path='email_modules/footer/th/online'
 color='white'
 
-[[module]]
+[[module]] #VN Online
 path='email_modules/footer/vn/online'
 color='white'
 
-[[module]]
+[[module]] #General Online
 path='email_modules/footer/online'
 color='white'
 

@@ -2,27 +2,27 @@
 moduletypes=[ "footer" ]
 title='Footer Social'
 
-[[module]]
+[[module]] #AU Social
 path='email_modules/footer/au/social'
 color='white'
 
-[[module]]
+[[module]] #IN Social
 path='email_modules/footer/in/social'
 color='white'
 
-[[module]]
+[[module]] #PH Social
 path='email_modules/footer/ph/social'
 color='white'
 
-[[module]]
+[[module]] #TH Social
 path='email_modules/footer/th/social'
 color='white'
 
-[[module]]
+[[module]] #VN Social
 path='email_modules/footer/vn/social'
 color='white'
 
-[[module]]
+[[module]] #General Social
 path='email_modules/footer/social'
 color='white'
 
