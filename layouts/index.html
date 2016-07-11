@@ -21,7 +21,7 @@
         </thead>
         <tbody>
           {{ range $key, $taxonomy := .Site.Taxonomies.markets }}
-          <tr id="$key">
+          <tr id="{{$key}}">
             <td> {{ humanize $key }} </td>
             <td>
               <ul>
@@ -36,7 +36,7 @@
           </tr>
           {{ end }}
           {{ range $key, $taxonomy := .Site.Taxonomies.moduletypes }}
-          <tr id="$key">
+          <tr id="Modules">
             <td> {{ humanize $key }} Modules </td>
             <td>
               <ul>
