@@ -1,8 +1,12 @@
 +++
 markets = ["in"]
-title = '''IN Prospect 004 699'''
+title = '''IN Prospect 010 All'''
 
 preheader = '''When you purchase a Ford, you're not just buying a great vehicle - you're joining a family. '''
+
+[[module]] #Header Logo
+path='email_modules/header/logo'
+color='white'
 
   image = '''white'''
   url_link = '''http://www.india.ford.com'''
@@ -11,7 +15,7 @@ preheader = '''When you purchase a Ford, you're not just buying a great vehicle 
 path='email_modules/image/banner'
 color='white'
 
-  image = '''"699_20160613"'''
+  image = '''699_20160613'''
   url_link = '''http://www.india.ford.com'''
 
 [[module]] #Cover 08
@@ -34,12 +38,6 @@ color='''lightblue'''
   cta_text = '''START CHATTING'''
   cta_url = '''https://ford-livechat.s3ae.com/in/chat.php?a=1e4b8&intgroup=c3VwcG9ydA__&hg=Pw__&hcgs=MQ__&htgs=MQ__'''
   icon = '''live_chat'''
-
-[[module]] #Footer Disclaimer
-path='email_modules/footer/disclaimer'
-color='white'
-
-  text = '''Terms and conditions <br/><br/>*This offer is available on all variants of Ford Aspire and all variants of Next-Gen Ford Figo (except Ambiente and automatic variants) for bookings done from July 01 - 31, 2016 with full payment on or before July 31, 2016.<br/><br/>1. Interest rate of 6.99% is applicable only at select dealerships across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit. For more information, please contact an Authorized Ford Dealer.<br/><br/>2. Free Extended Warranty is valid for 4 years or 100000 km from the purchase of vehicle whichever occurs earlier. <br/><br/>3. Free Scheduled Service Plan is valid for 4 years or 40000 km from date of purchase of vehicle whichever occurs earlier. <br/><br/>4. 4. Free Exchange bonus of Rs. 18,000 is applicable on all variants of Ford Aspire. The valuation of the old car may differ and is evaluated by the independent valuers and at the sole discretion of exchange partners. For more information, please contact a Ford dealer.'''
 
 [[module]] #Footer 5 Icons
 path='email_modules/footer/5icons'
@@ -64,6 +62,12 @@ color='white'
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+
+  text = '''Terms and conditions <br/><br/>*This offer is available on all variants of Ford Aspire and all variants of Next-Gen Ford Figo (except Ambiente and automatic variants) for bookings done from July 01 - 31, 2016 with full payment on or before July 31, 2016.<br/><br/>1. Interest rate of 6.99% is applicable only at select dealerships across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit. For more information, please contact an Authorized Ford Dealer.<br/><br/>2. Free Extended Warranty is valid for 4 years or 100000 km from the purchase of vehicle whichever occurs earlier. <br/><br/>3. Free Scheduled Service Plan is valid for 4 years or 40000 km from date of purchase of vehicle whichever occurs earlier. <br/><br/>4. 4. Free Exchange bonus of Rs. 18,000 is applicable on all variants of Ford Aspire. The valuation of the old car may differ and is evaluated by the independent valuers and at the sole discretion of exchange partners. For more information, please contact a Ford dealer.'''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'

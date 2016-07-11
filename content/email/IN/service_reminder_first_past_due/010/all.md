@@ -87,7 +87,7 @@ color='white'
   icon3_url='''http://google.com'''
   icon3_image='''in_customer_care_number_20160401'''
   icon4_url='''http://google.com'''
-  icon4_image='''rsa_no_20160615'''
+  icon4_image='''in_rsa_no_20160615'''
     
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
