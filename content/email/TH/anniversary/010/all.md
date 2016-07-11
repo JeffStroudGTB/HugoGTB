@@ -35,4 +35,12 @@ color='''white'''
   cta_url = '''https://www.ford.co.th/owner/login'''
   icon = '''ew'''
 
+[[module]] #TH Social
+path='email_modules/footer/th/social'
+color='white'
+
+[[module]] #TH Online
+path='email_modules/footer/th/online'
+color='white'
+
 +++

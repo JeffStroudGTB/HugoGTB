@@ -60,4 +60,13 @@ color='black'
   cta2_url = '''http://google.com'''
   image = '''owner_app_20160328'''
 
+
+[[module]] #TH Social
+path='email_modules/footer/th/social'
+color='white'
+
+[[module]] #TH Online
+path='email_modules/footer/th/online'
+color='white'
+
 +++

@@ -62,4 +62,13 @@ color='white'
   image = '''cashback_20160328'''
   url_link = '''http://www.google.com'''
   
+
+[[module]] #TH Social
+path='email_modules/footer/th/social'
+color='white'
+
+[[module]] #TH Online
+path='email_modules/footer/th/online'
+color='white'
+
 +++
