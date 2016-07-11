@@ -4,10 +4,6 @@ title = '''IN Prospect 004 699'''
 
 preheader = '''When you purchase a Ford, you're not just buying a great vehicle - you're joining a family. '''
 
-[[module]] #Header Logo
-path='email_modules/header/logo'
-color='white'
-
   image = '''white'''
   url_link = '''http://www.india.ford.com'''
 

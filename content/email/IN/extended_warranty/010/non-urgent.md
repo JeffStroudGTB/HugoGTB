@@ -1,4 +1,5 @@
 +++
+markets = ["in"]
 title = '''IN Extended Warranty 010 non urgent'''
 
 preheader = ''''''
@@ -8,26 +9,26 @@ path='email_modules/header/logo'
 color='white'
 
   image = '''white'''
-  url = '''http://google.com'''
+  url_link = '''http://google.com'''
 
 [[module]] #Cover 06
 path='email_modules/cover/06'
 color='''white'''
 
-  cover_06_white_title = '''Let's keep a good thing going'''
-  cover_06_white_copy = '''Hello <%${user.CustomAttribute['FullName']}%><br><br>Your Ford <%${user.CustomAttribute['Selected_Vehicle']}%>'s warranty will expire on <%${user.CustomAttribute['EWDate']}%>. Knowing you and your Ford are protected means the world to us, so we'd like to offer you an opportunity to extend your vehicle's warranty.<br><br>Our Extended Warranty Plans are designed specifically for your vehicle, and protect you from out-of-pocket bills. They cover major mechanical and electric failures, and are even transferrable - improving your vehicle's resale value.<br><br>We've got your back. Get in touch today and stay protected. '''
-  cover_06_white_cta1_text = '''STAY COVERED'''
-  cover_06_white_cta1_url = '''www.india.ford.com/ford-service/solutions/extended-warranty'''
-  cover_06_white_cta2_text = '''GET A CALLBACK'''
-  cover_06_white_cta2_url = '''www.india.ford.com/callback/confirmation'''
-  cover_06_white_icon = '''ew'''
+  title = '''Let's keep a good thing going'''
+  copy = '''Hello <%${user.CustomAttribute['FullName']}%><br><br>Your Ford <%${user.CustomAttribute['Selected_Vehicle']}%>'s warranty will expire on <%${user.CustomAttribute['EWDate']}%>. Knowing you and your Ford are protected means the world to us, so we'd like to offer you an opportunity to extend your vehicle's warranty.<br><br>Our Extended Warranty Plans are designed specifically for your vehicle, and protect you from out-of-pocket bills. They cover major mechanical and electric failures, and are even transferrable - improving your vehicle's resale value.<br><br>We've got your back. Get in touch today and stay protected. '''
+  cta1_text = '''STAY COVERED'''
+  cta1_url_link = '''www.india.ford.com/ford-service/solutions/extended-warranty'''
+  cta2_text = '''GET A CALLBACK'''
+  cta2_url_link = '''www.india.ford.com/callback/confirmation'''
+  icon = '''ew'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
-  image_banner_image = '''cashback_20160328'''
-  image_banner_url = '''http://www.google.com'''
+  image = '''cashback_20160328'''
+  url_link = '''http://www.google.com'''
 
 [[module]] #Footer 5 Icons
 path='email_modules/footer/5icons'

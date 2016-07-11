@@ -1,4 +1,5 @@
 +++
+markets = ["in"]
 title = '''IN Service Reminder Declined 010 seasonal campaign'''
 
   preheader = ''''''
@@ -8,19 +9,19 @@ path='email_modules/image/banner'
 color='white'
 
   image = '''white'''
-  url = '''https://www.india.ford.com/'''
+  url_link = '''https://www.india.ford.com/'''
 
 [[module]] #Cover 06
 path='email_modules/cover/06'
 color='''white'''
 
-  cover_06_white_title = '''Your Ford <%${user.CustomAttribute['Selected_Vehicle']}%> needs attention'''
-  cover_06_white_copy = '''We noticed that you declined an important part of your servicing at your last appointment. That's got us worried.<br><br>When you come into a Ford service centre, you're putting your vehicle into the best hands possible. Our trained technicians know the specifics of your Ford vehicle and only use genuine Ford parts.<br><br>As part of the Ford family, we've got your back. Visit us at a Ford dealer soon.'''
-  cover_06_white_cta1_text = '''GET A CALLBACK'''
-  cover_06_white_cta1_url = '''https://www.india.ford.com/ford-service/service-bookings'''
-  cover_06_white_cta2_text = '''FIND A DEALER'''
-  cover_06_white_cta2_url = '''http://www.india.ford.com/locate-dealer?emailid=EDM_<%${user.CustomAttribute['DMCDATE']}%>_APMKTC4L_<%${user.CustomAttribute['DMCCAMPAIGN']}%>_locate-dealer'''
-  cover_06_white_icon = '''ew'''
+  title = '''Your Ford <%${user.CustomAttribute['Selected_Vehicle']}%> needs attention'''
+  copy = '''We noticed that you declined an important part of your servicing at your last appointment. That's got us worried.<br><br>When you come into a Ford service centre, you're putting your vehicle into the best hands possible. Our trained technicians know the specifics of your Ford vehicle and only use genuine Ford parts.<br><br>As part of the Ford family, we've got your back. Visit us at a Ford dealer soon.'''
+  cta1_text = '''GET A CALLBACK'''
+  cta1_url_link = '''https://www.india.ford.com/ford-service/service-bookings'''
+  cta2_text = '''FIND A DEALER'''
+  cta2_url_link = '''http://www.india.ford.com/locate-dealer?emailid=EDM_<%${user.CustomAttribute['DMCDATE']}%>_APMKTC4L_<%${user.CustomAttribute['DMCCAMPAIGN']}%>_locate-dealer'''
+  icon = '''ew'''
 
 [[module]] #Service Status No Copy
 path='email_modules/custom/svcstatus_nocopy'
@@ -41,41 +42,41 @@ color='white'
 path='email_modules/image/banner'
 color='white'
 
-  image_banner_image1 = '''cashback_20160328'''
-  image_banner_url1 = '''http://www.google.com'''
+  image = '''cashback_20160328'''
+  url1 = '''http://www.google.com'''
 
 [[module]] #Custom 02
 path='email_modules/custom/02'
 color='white'
 
-  custom_02_white_title1 = '''Service Price Promise'''
-  custom_02_white_text1 = '''We ensure that there are no surprises in your service cost. The price you see online is the price you pay.'''
-  custom_02_white_textlink1_text = '''Check service price'''
-  custom_02_white_textlink1_url = '''https://www.fordservicepricepromise.com/?extcmp=serca_101115_105328_fordind'''
-  custom_02_white_title2 = '''Pick Up &#38; Drop'''
-  custom_02_white_text2 = '''Stay home while we pick up, service, and return your vehicle to you. The easiest way to keep your Ford in top shape. '''
-  custom_02_white_title3 = '''Parts Cost Calculator'''
-  custom_02_white_text3 = '''We tell you exactly how much a replacement part will cost before you even visit the service centre.'''
-  custom_02_white_textlink2_text = '''Check parts price'''
-  custom_02_white_textlink2_url = '''https://partscalculator.fordind.com:1443/Fill_Field'''
-  custom_02_white_cta_text = '''FIND A DEALER'''
-  custom_02_white_cta_url = '''http://www.india.ford.com/locate-dealer?emailid=EDM_<%${user.CustomAttribute['DMCDATE']}%>_APMKTC4L_<%${user.CustomAttribute['DMCCAMPAIGN']}%>_locate-dealer'''
+  title1 = '''Service Price Promise'''
+  text1 = '''We ensure that there are no surprises in your service cost. The price you see online is the price you pay.'''
+  textlink1_text = '''Check service price'''
+  textlink1_url_link = '''https://www.fordservicepricepromise.com/?extcmp=serca_101115_105328_fordind'''
+  title2 = '''Pick Up &#38; Drop'''
+  text2 = '''Stay home while we pick up, service, and return your vehicle to you. The easiest way to keep your Ford in top shape. '''
+  title3 = '''Parts Cost Calculator'''
+  text3 = '''We tell you exactly how much a replacement part will cost before you even visit the service centre.'''
+  textlink2_text = '''Check parts price'''
+  textlink2_url_link = '''https://partscalculator.fordind.com:1443/Fill_Field'''
+  cta_text = '''FIND A DEALER'''
+  cta_url = '''http://www.india.ford.com/locate-dealer?emailid=EDM_<%${user.CustomAttribute['DMCDATE']}%>_APMKTC4L_<%${user.CustomAttribute['DMCCAMPAIGN']}%>_locate-dealer'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
-  image_banner_image2 = '''4x4_20160613'''
-  image_banner_url2 = '''http://www.google.com'''
+  image = '''4x4_20160613'''
+  url2 = '''http://www.google.com'''
 
 [[module]] #Cover 07
 path='email_modules/cover/07'
 color='''white'''
 
-  cover_07_white_title = '''Monsoon Campaign'''
-  cover_07_white_copy = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
-  cover_07_white_cta_text = '''Click me!'''
-  cover_07_white_cta_url = '''http://google.com'''
+  title = '''Monsoon Campaign'''
+  copy = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
+  cta_text = '''Click me!'''
+  cta_url = '''http://google.com'''
 
 [[module]] #Footer 4 Icons
 path='email_modules/footer/4icons'
