@@ -13,7 +13,7 @@
             <table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td align="left" valign="top" style="color:{{.color.heading2}}; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular; padding-bottom:20px; padding-top:30px; padding-left:30px; padding-right:30px;">
-                  {{ .moduleinfo.title }}
+                  {{ .moduleinfo.title | markdownify }}
                 </td>
               </tr>
               <tr>
@@ -27,7 +27,7 @@
                     <tr>
                       <td align="left" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
                         <a href="{{ .moduleinfo.cta_url }}" target="_blank" title="" style="color:{{ .color.ctaicontext }}; text-decoration:none;">
-                          {{ .moduleinfo.cta_text }}
+                          {{ .moduleinfo.cta_text | markdownify }}
                         </a>
                       </td>
                       <td align="left" valign="top" style="padding-left:10px;">

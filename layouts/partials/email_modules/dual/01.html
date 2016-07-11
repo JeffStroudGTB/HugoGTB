@@ -1,5 +1,5 @@
 <!-- dual/01/white Starts--> 
-  <table align="center" class="resize_table_to_320" width="640" border="0" cellspacing="0" cellpadding="0" style="max-width: 640px;">
+  <table bgcolor="#FFFFFF" align="center" class="resize_table_to_320" width="640" border="0" cellspacing="0" cellpadding="0" style="max-width: 640px;">
     <tr>
       <td width="320" class="drop" align="center">
         <table width="320" cellpadding="0" cellspacing="0" border="0">
@@ -21,13 +21,13 @@
               <td height="20px" align="center">&nbsp;</td>
             </tr>
             <tr>
-              <td valign="top" style=" font-size:24px; line-height:30px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif';" align="center" >{{ .moduleinfo.title1 }}</td>
+              <td valign="top" style=" font-size:24px; line-height:30px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif';" align="center" >{{ .moduleinfo.title1 | markdownify }}</td>
             </tr>
             <tr>
               <td height="20px">&nbsp;</td>
             </tr>
             <tr>
-              <td valign="top" style=" font-size:16px; line-height:21px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif'; color:#616161;" align="center" >{{ .moduleinfo.copy1 }}</td>
+              <td valign="top" style=" font-size:16px; line-height:21px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif'; color:#616161;" align="center" >{{ .moduleinfo.copy1 | markdownify }}</td>
             </tr>
             <tr>
               <td height="20px">
@@ -42,7 +42,7 @@
                     style="padding-left:20px; padding-right:20px; text-align:center;
                     font-family: 'Arial','Helvetica','Sans-Serif'; 
                     font-size:16px; color:#FFF;">
-                      <a href="{{ .moduleinfo.cta1_url }}" target="_blank" title="" style="width:100%; display:block; color:#FFFFFF; text-decoration:none;">{{ .moduleinfo.cta1_text }}</a>
+                      <a href="{{ .moduleinfo.cta1_url }}" target="_blank" title="" style="width:100%; display:block; color:#FFFFFF; text-decoration:none;">{{ .moduleinfo.cta1_text | markdownify }}</a>
                     </td>
                   </tr>
                 </table>
@@ -79,14 +79,14 @@
               <td height="20px" align="center">&nbsp;</td>
             </tr>
             <tr>
-              <td valign="top" style=" font-size:24px; line-height:30px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif';" align="center"  >{{ .moduleinfo.title2 }}
+              <td valign="top" style=" font-size:24px; line-height:30px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif';" align="center"  >{{ .moduleinfo.title2 | markdownify }}
               </td>
             </tr>
             <tr>
               <td height="20px">&nbsp;</td>
             </tr>
             <tr>
-              <td valign="top" style=" font-size:16px; line-height:21px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif'; color:#616161;" align="center">{{ .moduleinfo.copy2 }}</td>
+              <td valign="top" style=" font-size:16px; line-height:21px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif'; color:#616161;" align="center">{{ .moduleinfo.copy2 | markdownify }}</td>
             </tr>
             <tr>
               <td height="20px">
@@ -100,7 +100,7 @@
                     <td bgcolor="#2D96CD"  height="40" valign="middle" align="center" 
                     style="padding-left:20px; padding-right:20px; text-align:center;
                     font-family: 'Arial','Helvetica','Sans-Serif'; 
-                    font-size:16px; color:#FFF;"><a href="{{ .moduleinfo.cta2_url }}" target="_blank" title="" style="width:100%; display:block; color:#FFFFFF; text-decoration:none;">{{ .moduleinfo.cta2_text }}</a></td>
+                    font-size:16px; color:#FFF;"><a href="{{ .moduleinfo.cta2_url }}" target="_blank" title="" style="width:100%; display:block; color:#FFFFFF; text-decoration:none;">{{ .moduleinfo.cta2_text | markdownify }}</a></td>
                   </tr>
                 </table>
               </td>

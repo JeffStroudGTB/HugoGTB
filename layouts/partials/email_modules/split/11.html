@@ -13,7 +13,7 @@
             <table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td align="left" valign="top" style="color:{{.color.heading2}}; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular; padding-bottom:20px; padding-top:30px; padding-left:30px; padding-right:30px;" class="mobile_align_center">
-                {{ .moduleinfo.title }}
+                {{ .moduleinfo.title | markdownify }}
                 </td>
               </tr>
               <tr>
@@ -25,7 +25,7 @@
                 <td valign="top" align="left" style="padding-left:30px; padding-right:30px; padding-bottom:30px;">
                   <table  border="0"  cellspacing="0" cellpadding="0" bgcolor="{{ .color.ctablockbg }}" class="mobile_align_center">
                     <tr>
-                      <td height="40" valign="middle" align="center" style="padding-left:20px; padding-right:20px; text-align:center; color:#ffffff; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; color#FFF"><a href="{{ .moduleinfo.cta_url }}" style="text-decoration:underline; color:{{ .color.ctablocktext }}; font-size:16px; line-height:21px; font-weight:normal; font-style:regular; text-decoration:none;">{{ .moduleinfo.cta_text }}</a></td>
+                      <td height="40" valign="middle" align="center" style="padding-left:20px; padding-right:20px; text-align:center; color:#ffffff; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; color#FFF"><a href="{{ .moduleinfo.cta_url }}" style="text-decoration:underline; color:{{ .color.ctablocktext }}; font-size:16px; line-height:21px; font-weight:normal; font-style:regular; text-decoration:none;">{{ .moduleinfo.cta_text | markdownify }}</a></td>
                     </tr>
                   </table>
                 </td>
