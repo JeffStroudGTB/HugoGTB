@@ -95,12 +95,11 @@ color='white'
   icon4_url='''http://google.com'''
   icon4_image='''rsa_no_20160615'''
     
-[[module]]
-path='email_modules/footer/in/online'
-color='white'
-
-[[module]]
+[[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'
 
+[[module]] #Footer IN Online
+path='email_modules/footer/in/online'
+color='white'
 +++
