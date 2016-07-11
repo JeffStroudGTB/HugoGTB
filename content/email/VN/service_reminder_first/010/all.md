@@ -89,6 +89,4 @@ color='white'
 path='email_modules/footer/vn/online'
 color='white'
 
-
-
 +++

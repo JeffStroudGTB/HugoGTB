@@ -5,7 +5,7 @@
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
           <td align="center" valign="top" style="color:{{.color.heading2}}; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular; padding-bottom:20px;">
-            {{ .moduleinfo.title }}
+            {{ .moduleinfo.title | markdownify }}
           </td>
         </tr>
         <tr>
