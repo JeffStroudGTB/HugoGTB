@@ -1,5 +1,5 @@
 +++
-markets = ["th"]
+markets = ["vn"]
 title = '''VN Repurchase 010 All'''
 
 
@@ -59,5 +59,14 @@ color='''white'''
   cta_text = '''Click me!'''
   cta_url = '''http://google.com'''
   icon = '''ew'''
+
+[[module]] #VN Social
+path='email_modules/footer/vn/social'
+color='white'
+
+[[module]] #VN Online
+path='email_modules/footer/vn/online'
+color='white'
+
 
 +++

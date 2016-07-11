@@ -1,5 +1,5 @@
 +++
-markets = ["th"]
+markets = ["vn"]
 title = '''VN Service Reminder First 010 All'''
 
 preheader = ''''''
@@ -80,6 +80,15 @@ color='white'
   cta2b_text = '''Click me!'''
   cta2b_url = '''http://google.com'''
   icon2 = '''ew'''
+
+[[module]] #VN Social
+path='email_modules/footer/vn/social'
+color='white'
+
+[[module]] #VN Online
+path='email_modules/footer/vn/online'
+color='white'
+
 
 
 +++

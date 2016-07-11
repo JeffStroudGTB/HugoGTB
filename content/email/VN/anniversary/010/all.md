@@ -48,4 +48,12 @@ color='''white'''
   cta_url = '''https://www.ford.com.vn/owner/login'''
   icon = '''ew'''
 
+[[module]] #VN Social
+path='email_modules/footer/vn/social'
+color='white'
+
+[[module]] #VN Online
+path='email_modules/footer/vn/online'
+color='white'
+
 +++
