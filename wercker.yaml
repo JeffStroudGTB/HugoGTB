@@ -1,0 +1,11 @@
+box: debian
+build:
+  steps:
+  - arjen/hugo-build@1.10.1:
+        version: "0.16"
+        flags: --buildDrafts=false
+deploy:
+  steps:
+    - wercker/heroku-deploy@3.0.1:
+      key-name: awesome
+      app-name: werckerhugotest
