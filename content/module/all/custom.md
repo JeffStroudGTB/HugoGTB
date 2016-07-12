@@ -46,7 +46,7 @@ color='black'
   text3 = '''Step-by-step guide to Ford tech. '''
   title4 = '''Dealer Locator'''
   icon4 = '''ew'''
-  text4 = '''Because were always here for you.
+  text4 = '''Because were always here for you.'''
 
 [[module]] #Custom 06
 path='email_modules/custom/06'
